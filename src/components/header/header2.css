@@ -1,0 +1,25 @@
+
+.headercontainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+   
+}
+.headerlist{
+    display: flex;
+    gap: 40px;
+}
+.headeritems{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.headeritemsactive{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.headerdis{
+    margin: 20px 0px;
+
+}

@@ -1,0 +1,36 @@
+.homepage{
+   
+    width: 100%;
+    max-width: 1024px;
+   
+    display: flex;
+    justify-content: space-between;
+   gap: 20px;
+
+    z-index: 1;
+}
+.homepageitems{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.homepageitems{
+  position: relative;
+  border-radius: 10px;
+  height: 250px;
+  color: black;
+  overflow: hidden;
+ 
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.homepagetitles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+}

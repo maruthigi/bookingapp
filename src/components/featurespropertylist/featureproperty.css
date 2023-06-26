@@ -1,0 +1,36 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fpitem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+}
+.fname{
+    font-weight: bold;
+}
+.fcity{
+    font-weight: bold;
+}
+.fprice{
+    font-weight: bold;
+}
+.frating>button{
+    background-color: rgb(139, 139, 250);
+    color: white;
+    margin-right: 10px;
+    border: none;
+    padding: 3px;
+    font-weight: bold;
+}
+.frating>span{
+    font-weight: 14px;
+}
