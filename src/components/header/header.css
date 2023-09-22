@@ -1,11 +1,14 @@
 
 .header{
-    color: white;
-    background-color: #080692e0;
+   
     display: flex;
-
-  
-    justify-content: space-around;
+    background-color: #080692e0;
+    color: white;
+    padding: 0px 50px;
+   
+    min-height: 10vh;
+    color: white; 
+    
 }
 .headercontainer .listmode{
     margin: 20px 0px 0px 0px;
